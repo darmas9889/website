@@ -2,16 +2,29 @@
 <html>
     <html lang="en-US"> <meta charset="UTF-8">
     <head>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>About Me</title>
    </head>
 <body>
-    <img src="profilepic.jpeg" alt="Profile picture of Dani" style="width:300px;height:300px;">
+     <nav class="navigation">
+    <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#Porfolio">Portfolio</a></li>
+  <li><a href="#Pictures&videos">Media</a></li>
+  <li><a href="#about">About me</a></li>
+</ul>
+    </nav>
+   <div id="profilepic">
+    <img src="images/profilepic.jpeg" alt="Profile picture of Dani" style="width:300px;height:300px;">
+       </div>
     
+   <div id="banner">
     <h1>Daniela Armas</h1>
-    <h2><i>Apple Specilaist and College Student</i></h2>
-                  <p>My Name is Daniela Armas, but my friends and family call me Dani. I currently work for Apple as an Apple Specialist. I work inside of a Best Buy store in their Apple Shop to help those costumers have the same experience as going to an Apple store to buy their desired products. Also, I am a college student on my 4th year, majoring in Computer Information Systems with a Concentration in Programming. I live with my girlfriend and two cats and I am the biggest fan of Golden Retrievers and German Shapers.</p>
-  <h3>Skills</h3>
+       
+    <div id="main" class="content">
+ <h2><i>Apple Specialist and College Student</i></h2>
+         <p>My Name is Daniela Armas, but my friends and family call me Dani. I currently work for Apple as an Apple Specialist. I work inside of a Best Buy store in their Apple Shop to help customers have the same experience as going to an Apple Store to buy their desired products. Also, I am a college student on my 4th year, majoring in Computer Information Systems. I live with my girlfriend and two cats and I am the biggest fan of Golden Retrievers and German Shepherds. </p>
+    <h3>Skills</h3>
     <ul>
         <li>Costumer Service</li>
         <li>Some HTML</li>
@@ -29,14 +42,55 @@
         <li>Playing Video Games</li>
         <li>Technology Fanatic</li>
         <li>Apple Collector</li>
-    </ul>
+    </ul>     
+    <h3>Favorite Song</h3>
+    <audio controls>
+  <source src=music/LadyGaga%20-newsong.mp3 type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+ <h3>Funny Video</h3>
+    <video width="350" height="200" controls>
+  <source src="media/Mycats.MP4" type="video/mp4">Raven in her Box
+</video>
+        </div>
+    </div>
     
-    <!--Social Media Links-->
-    <a href="https://www.twitter.com/dni_love">Twitter</a>
-    <a href="https://www.instagram.com/dni_armas">Instagram</a>
+<!--Social Media Links-->
+<a href="https://www.twitter.com/dni_love">Twitter</a>
+<a href="https://www.instagram.com/dni_armas">Instagram</a>
+   
+    <!---canvas words ---->
     
+    <canvas id="myCanvas" width="200" height="50" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+     
+    <script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "15px Time New Roman";
+ctx.fillText("hello World, What sup?",10,10);
+</script>
     
-    </body>
+    <!---svg style---> 
+    <svg height="130" width="500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"
+      style="stop-color:rgb(150,200,0);stop-opacity:1" />
+      <stop offset="100%"
+      style="stop-color:rgb(200,0,0);stop-opacity:2" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <text fill="#dddd" font-size="45" font-family="Verdana"
+  x="50" y="86">Hello</text>
+Sorry, your browser does not support inline SVG.
+</svg>
+    
+ </body>
+      
+    
+    </html>
 
 
 
