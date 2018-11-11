@@ -25,6 +25,7 @@
 }
 /* picture css*/
 #banner {
+ background-image: url(macbackground3.jpg);
     background-size:cover;
     background-position: center;
     width:100%;
