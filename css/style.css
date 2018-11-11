@@ -3,7 +3,7 @@
     font-family: "Times New Roman", Times, serif;
 }
 #profilepic img{
-    float: center;
+    float: left;
 }
 
 /* navegation bar needs work */
