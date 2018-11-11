@@ -1,15 +1,93 @@
-body {
-    background-color: azure;
+ body {
+    background-color: white;
     font-family: "Times New Roman", Times, serif;
+}
+#profilepic img{
+    float: center;
+}
+
+/* navegation bar needs work */
+.navigation ul {
+    margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.navigation li{
+     font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+/* Change the link color on hover */
+ .navigation li a:hover {
+    background-color: #500;
+    color: white;
+}
+/* picture css*/
+#banner {
+    background-image: url(images/macbackground3.jpg);
+    background-size:cover;
+    background-position: center;
+    width:100%;
+}
+
+#banner .content h1 {
+  border: 3px solid white;
+  top: 50px;
+  width: 400px;
+    margin:0 auto;
+}
+/* writing css */
+#main {
+  text-align: center;
+  width: 400px;
+  height: 1000px;
+    margin:0 auto;
 }
 
 h1 {
-    color: black;
-    text-align: center;
-    outline-style: solid
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
 }
-h2{ color:red;
-    outline-style: solid
-    text-decoration: underline;
-    
+
+h2 {
+  color:red;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+    margin-bottom: auto;
+}
+
+h3 {
+  color: red;
+  font-size: 26px;
+  font-weight: 700;
+    text-align: center;   
+}
+h4{ color: white;
+   font-size: 16px;
+   line-height: 20px;
+    text-align: center    
+}
+ul{
+    list-style-type: square;
+    padding: 0;
+    list-style-position: inside;
+    margin: 0;
+}
+ 
+li { 
+color:white;
+    font-size:16px;
+    text-align: center;
+    padding: 0;
+     margin: 0;
+}
+p {
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+    text-align: center
 }
