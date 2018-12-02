@@ -1,11 +1,6 @@
  html {
-     background-color: balck;
+     background-color: black;
     font-family: "Times New Roman", Times, serif;
-}
-body { 
- background-image: url("macbackground3.jpg");
- background-repeat: no-repeat;
- background-position: right top;
 }
 #profilepic img{
     float: left;
