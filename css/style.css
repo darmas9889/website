@@ -5,6 +5,8 @@
 #profilepic img{
     float: left;
 }
+body { backgorund-image: url ();
+}
 
 /* navegation bar needs work */
 .navigation ul {
