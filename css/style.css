@@ -13,7 +13,7 @@ body{
   background-color: black;
   padding: 10px;
   text-align: center;
-  color:white;
+  color: white;
 }
 .profilepic img {
   display:block;
@@ -55,14 +55,14 @@ h3 {
   }
       
 ul {
-    list-style-type: square;
+    list-style-type: circle;
     padding: 0;
     list-style-position: inside;
     margin: 0;
 }
  
 li { 
-color:black;
+    color:black;
     font-size:16px;
     text-align: center;
     padding: 0;
