@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  color:red;
+  color:balck;
   font-size: 25px;
   line-height: 40px;
   text-align: left;
@@ -28,12 +28,12 @@ h2 {
 }
 
 h3 {
-  color: red;
+  color: balck;
   font-size: 26px;
   font-weight: 700;
     text-align: center;   
 }
-h4{ color: white;
+h4{ color: balck;
    font-size: 16px;
    line-height: 20px;
     text-align: center;    
@@ -46,7 +46,7 @@ ul{
 }
  
 li { 
-color:white;
+color:black;
     font-size:16px;
     text-align: center;
     padding: 0;
