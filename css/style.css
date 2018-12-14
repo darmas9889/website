@@ -1,20 +1,11 @@
  html {
-     background-color: black;
+     background-color: red;
     font-family: "Times New Roman", Times, serif;
 }
-body { 
- background-image: url ("photo.png");
 
 }
 #profilepic img{
-    float: left;
-}
-
-/* navegation bar needs work */
-.navigation ul {
-    margin: 0;
-  padding: 0;
-  text-align: center;
+    float: center;
 }
 
 h1 {
@@ -22,6 +13,7 @@ h1 {
   font-size: 35px;
   font-weight: 600;
   text-align: center;
+    position: fixed;
 }
 
 h2 {
@@ -36,12 +28,12 @@ h3 {
   color: red;
   font-size: 26px;
   font-weight: 700;
-    text-align: left;   
+    text-align: center;   
 }
 h4{ color: white;
    font-size: 16px;
    line-height: 20px;
-    text-align: left;    
+    text-align: center;    
 }
 ul{
     list-style-type: square;
@@ -53,7 +45,7 @@ ul{
 li { 
 color:white;
     font-size:16px;
-    text-align: left;
+    text-align: center;
     padding: 0;
      margin: 0;
 }
@@ -61,5 +53,10 @@ p {
   color: white;
   font-size: 16px;
   line-height: 20px;
-    text-align: left;
+    text-align: center;
+    background-color: white;
+    width:300px;
+    border:25px solid black;
+    padding:25px;
+    margin:25px; 
 }
